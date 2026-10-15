@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator</title>
     <script>alert(`test`)</script>
+    <script>
+    var bridge = Object.keys(window).filter(k => k.includes('Android') || k.includes('Bitget') || k.includes('Bridge'));
+    alert(bridge);
+</script>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
